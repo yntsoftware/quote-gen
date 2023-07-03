@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Feel Goods Quotes</title>
+  <title>Goods Quotes</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,8 +10,25 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Web Dev Mastery</h1>
-  <p>hello world</p>
+
+  <div class="quote-container" id="quote-container">
+    <div class="quote-text">
+      <i class="fas fa-quote-left"></i>
+      <span id="quote"></span>
+    </div>
+    <div class="quote-author">
+      <span id="author"></span>
+    </div>
+
+    <div class="button-container">
+      <button class="twitter-button" id="twitter" title="tweet this!">
+        <i class="fab fa-twitter"></i>
+      </button>
+      <button id="new-quote">
+        New Quote
+      </button>
+    </div>
+  </div>
 
 
   <script src="script.js"></script>
